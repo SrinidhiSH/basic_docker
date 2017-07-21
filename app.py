@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Tags with version names'
+    return 'Ver 2.0'
 
 
 if __name__ == '__main__':
